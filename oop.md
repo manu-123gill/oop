@@ -8,10 +8,24 @@ inheritance allow user to define a class that inherits all the methed and Proper
 Main class is also called patent class and other class is called base class.When user uses more that one main class,it is called multipal inhetitance.
 # Example
  class Kitkat extand Food {
+ 
    public Kitkat(int supply) {
+   
      super(supply):
   }   
  public void consume(int amount){
+ 
    this.supply -= 2* amount;
+   
    }
+   
    }
+   in example super allow Kitkat to call the Food constractor
+   
+   food constructor fills food properties
+
+   # Encapsulation
+   By using encspsulation, we can restrict the variable and method assess globally by making it private.
+   1. Declare the class variable as a private.
+   2. Declare the class method as a public.
+   
